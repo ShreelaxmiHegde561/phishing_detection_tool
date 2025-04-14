@@ -1,16 +1,43 @@
-# Phishing Detection Tool
+Phishing Detection Tool
 
-## Overview
-This is a phishing detection tool that analyzes email content to identify potential phishing attempts.
+A tool to detect phishing attempts by analyzing email content using machine learning.
 
-## Features
-- Upload email content for phishing detection.
-- Real-time email monitoring (in development).
-- User feedback logging.
+Features
 
-## Setup
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
+- Analyze email content (Sender, Subject, Body, URLs)
+- Web interface for easy use
+- Feedback system to improve model accuracy
+
+1. Clone the Repository
+
+```bash
+git clone https://github.com/ShreelaxmiHegde561/phishing_detection_tool.git
+cd phishing_detection_tool
+```
+
+2. Set up Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate     # On Windows
+# source venv/bin/activate  # On Linux/Mac
+```
+
+3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the App
+
+```bash
+python app.py
+```
+
+The app will be available at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+Tech Stack
+
+- Backend: Python, Flask  
+- Machine Learning**: Scikit-learn, TF-IDF
