@@ -40,4 +40,4 @@ The app will be available at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 Tech Stack
 
 - Backend: Python, Flask  
-- Machine Learning**: Scikit-learn, TF-IDF
+- Machine Learning: Scikit-learn, TF-IDF
