@@ -8,6 +8,8 @@ Features
 - Web interface for easy use
 - Feedback system to improve model accuracy
 
+Setup
+
 1. Clone the Repository
 
 ```bash
@@ -25,6 +27,8 @@ venv\Scripts\activate     # On Windows
 
 3. Install Dependencies
 
+Make sure to use Python 3.10 or higher for compatibility with the dependencies.
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -39,3 +43,8 @@ Tech Stack
 
 - Backend: Python, Flask  
 - Machine Learning: Scikit-learn, TF-IDF
+
+Python Version
+
+This project requires Python 3.10 to ensure compatibility with scikit-learn and other dependencies.
+
